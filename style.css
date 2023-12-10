@@ -1,0 +1,172 @@
+body{
+	background-color: floralwhite;
+	background-image: url('ex2.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: scroll;
+	
+}
+.div{
+	
+	 background-size: 100% 100%;
+}
+.lo{
+	color:floralwhite;
+	margin-top:-12.7%;
+	float : right;
+	position: absolute;
+
+}
+.dd{	
+	background-color:rgba(0.7,0.7,0.5,0.7);
+  padding: 40px;
+	font-size:200%;
+  text-align: center;
+	color: floralwhite;
+	width: 94.69%;
+	height: 100px;
+	background-size: auto;
+	background-attachment: fixed;
+	text-shadow: 5px 5px 8px gold;
+	font-family: 'Brush Script MT', cursive;
+
+
+}
+.navv{
+	width: 100%;
+}
+ul {
+	font-family: 'Brush Script MT', cursive;
+	text-shadow: 3px 3px 8px gold;
+	font-size: 200%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0.7,0.7,0.5,0.7);
+}
+
+li {
+	float: left;
+	margin-left: 10%;
+  padding-left: 10%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  width: 100%;
+  text-decoration: ;
+}
+
+li a:hover {
+  background-color: darkgoldenrod;
+  transform: translate(10px , 10px);
+}
+.d1{	
+	color: floralwhite;
+  text-shadow: 2px 2px 5px gold;
+  width: 63%;
+  margin-top: 60px;
+  padding: 30px;
+  background-color: rgba(0.5, 0.5, 0.5, 0.80);
+
+}
+.d2{
+	padding-left: 40px;
+}
+.d3{
+
+	float: right;
+	margin-top: ;
+
+}
+
+.d2::after{
+	content: "";
+  clear: both;
+  display: table;
+}
+
+.d2 > h2{
+	color: floralwhite;
+	text-shadow: 2px 2px 5px goldenrod;
+}
+
+
+.d4::after{
+	content: "";
+  clear: both;
+  display: table;
+}
+.d4 > h1{
+	padding-left: 15%;
+	color: floralwhite;
+	text-shadow: 2px 2px 5px gold;
+}
+.d4 > h2{
+	color: floralwhite;
+	text-shadow: 2px 2px 5px goldenrod;
+}
+.d4{
+	display: flex;
+}
+
+.d5{
+	float: left;
+	padding-left: 30px;
+}
+
+.d6{
+	color: floralwhite;
+	padding-left: 100px;
+	text-shadow:  2px 2px 5px goldenrod;
+	background-color: rgba(0.5, 0.5, 0.5, 0.80);
+}
+
+.foot{
+	background-color: rgba(0.5,0.5,0.5,0.5);
+	padding: 10px;
+	display: flex;
+	column-width: 30px;
+}
+.con{
+	color: floralwhite;
+	padding-left:;
+
+}
+.add{
+	color: floralwhite;
+	margin-top:;
+	padding-left: 200px;
+}
+.time{
+
+	color: floralwhite;
+	margin-top:;
+	padding-left: 200px;
+}
+.social{
+	padding-top: 80px;
+	padding-left: 150px;
+	padding-right: 60px;
+	align-content: space-between;
+	width: 10%;
+}
+footer {
+	width: 100%;
+  background-color:rgba(0.5,0.5,0.5,0.5);
+}
+img {
+  opacity: 0.5;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0.5,0.7,0.7,0.5);
+}
+img:hover {
+  opacity: 1.0;
+  transition: 2px ;
+
+}

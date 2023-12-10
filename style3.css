@@ -1,0 +1,130 @@
+body{
+	background-color: floralwhite;
+	background-image: url('ex2.jpg');
+	height: auto;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: scroll;
+}
+.div{
+	
+	 background-size: 100% 100%;
+}
+.lo{
+	
+	margin-top:-13%;
+	position: absolute;
+}
+.dd{	
+	background-color:rgba(0.7,0.7,0.5,0.7);
+  padding: 40px;
+	font-size:200%;
+  text-align: center;
+	color: floralwhite;
+	width: 94.69%;
+	height: 100px;
+	background-size: auto;
+	background-attachment: fixed;
+	text-shadow: 3px 3px 8px gold;
+	font-family: 'Brush Script MT', cursive;
+}
+
+.navv{
+	width: 100%;
+}
+ul {
+	font-family: 'Brush Script MT', cursive;
+	text-shadow: 3px 3px 8px gold;
+	font-size: 200%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0.7,0.7,0.5,0.7);
+}
+
+li {
+	float: left;
+	margin-left: 10%;
+  padding-left: 10%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  width: 100%;
+  text-decoration: underline;
+}
+
+li a:hover {
+  background-color:darkgoldenrod; ;
+  transition: 2px 2px;
+  transform: translate(10px , 10px);
+}
+
+img:hover{
+	
+	transition: 2px;
+}
+
+h2{
+	color: floralwhite;
+	text-shadow: goldenrod;
+}
+.cont{
+	padding: 30px;
+}
+.cont1{
+	background-size: 100% 100%;
+	opacity: 0.8;
+	align-content:center ;
+	padding: 30px;
+	width: 40%;
+	text-align: center;
+	background-color: rgba(0.5, 0.5, 0.5, 1.0);
+}
+.cont1 > h2{
+	color: floralwhite;
+	text-shadow: 2px 2px 2px goldenrod;
+	text-align: center;
+}
+
+
+
+
+.foot{
+	background-color: rgba(0.5,0.5,0.5,0.5);
+	padding: 10px;
+	display: flex;
+	column-width: 30px;
+}
+.con{
+	color: floralwhite;
+	padding-left:;
+
+}
+.add{
+	color: floralwhite;
+	margin-top:;
+	padding-left: 200px;
+}
+.time{
+
+	color: floralwhite;
+	margin-top:;
+	padding-left: 200px;
+}
+.social{
+	padding-top: 80px;
+	padding-left: 150px;
+	padding-right: 60px;
+	align-content: space-between;
+	width: 10%;
+}
+footer {
+	width: 100%;
+  background-color:rgba(0.5,0.5,0.5,0.5);
+}

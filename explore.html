@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Explore</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+
+<body>
+
+<div class="div">
+
+	<div class="dd"><h1>Coffee Bean Cafe</h1></div> 
+
+	<div class="lo"><img src="163l.png" width="250"></div>
+
+<div class="navv">
+	<ul>
+  	<li><a href="index.html">Home</a></li>
+  	<li><a href="explore.html">Explore</a></li>
+  	<li><a href="about.html">About</a></li>
+	</ul>
+</div>
+	<div class="head"><h2>MENU</h2></div>
+
+<div class="side">
+
+	
+	<div class="side1">
+		<img src="ex11.jpg" width="400" height="600">
+	</div>
+
+	<div class="motion">
+ 	 	<img class="mySlides" src="ex1.jpg" style="width:100%">
+  		<img class="mySlides" src="im2.jpg" style="width:100%">
+ 		<img class="mySlides" src="ex4.jpg" style="width:100%">
+ 	    <img class="mySlides" src="ex8.jpg" style="width:100%">
+	</div>
+
+	<div class="side2">
+		<img src="ex12.jpg" width="400" height="600">
+	</div>
+
+</div>
+
+<div class="excont">
+	
+	<div class="excont1">
+		<h3>As you step across the threshold, the subtle melody of clinking cups and gentle murmurs orchestrates an enchanting symphony that resonates through the air. The ambiance is a tapestry of warmth, adorned with the rich hues of mahogany and the soft glow of ambient lighting. Baristas, artisans of the bean, craft each cup with meticulous care, transforming the humble coffee bean into a masterpiece.</h3>
+	</div>
+
+	<div class="excont2">
+
+		<h3>The menu, a parchment of indulgence, unfurls before you, revealing an array of blends inspired by the heritage of coffee cultivation. From the robust notes of Ethiopian Yirgacheffe to the delicate embrace of Colombian Supremo, each sip unveils a narrative, a tale spun by the hands of farmers from distant lands.</h3>
+
+	</div>
+
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+
+<footer>
+
+	<div class="foot">
+
+		<div class="con">
+			<h1>Contact</h1>
+			<h2>Phone Number : 8637461114</h2>
+			<h2>Mail : cafcoffee@gmail.com</h2> 
+			<h2>Fax :0000-4567</h2>
+		</div>
+
+		<div class="add">
+			<h1>Address</h1>
+			<h2>2/162</h2>
+			<h2>South Street,Anna Nagar</h2> 
+			<h2>Madurai</h2>
+			
+		</div>
+
+		<div class="time">
+			<h1>Opening Time</h1>
+			<h2>Monday     10am - 10pm</h2>
+			<h2>Tuesday    10am - 10pm</h2>
+			<h2>Wednesday  10am - 10pm</h2>
+			<h2>Thursday   10am - 10pm</h2>
+			<h2>Friday     10am - 10pm</h2>
+		</div>
+
+		<div class="social">
+			<ul>
+				<li><img src="insta.jpg" width="40"></li>
+				<li><img src="whats.jpg" width="40"></li>
+				<li><img src="yt.jpg" width="40"></li>
+				<li><img src="twit.jpg" width="40"></li>
+			</ul>
+		</div>
+
+	</div>
+</footer>
+</div>
+</body>
